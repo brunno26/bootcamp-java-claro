@@ -9,8 +9,12 @@ public class TiposVariaveis {
 
         //Tipos-Variaveis
         short numeroCurto = 1;
+        System.out.println(numeroCurto);
+
         int numeroNormal = numeroCurto;
+
         short numeroCurto2 = (short) numeroNormal;
+        System.out.println(numeroCurto2);
 
         //Não é coerente fazer um casting com frequência (short) adaptação ao código.
 
